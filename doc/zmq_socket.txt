@@ -225,7 +225,7 @@ Outgoing routing strategy:: Fan out
 ZMQ_HWM option action:: Drop
 
 
-ZMQ_SUB
+ZMQ_XSUB
 ^^^^^^^
 Same as ZMQ_SUB except that you subscribe by sending subscription messages to
 the socket. Subscription message is a byte 1 (for subscriptions) or byte 0
